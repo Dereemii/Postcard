@@ -1,0 +1,57 @@
+
+body{
+    background-color:#151515;
+    font-family: 'Handlee', cursive; 
+    /* para encontrar la fuente tuve que ir al video */
+}
+
+.titulo img{
+    float: right;
+    width: 60px;
+    position: relative;
+    top: -15px;
+}
+
+.post{
+    background-color: white;
+    margin: 150px auto;
+    width: 500px;
+    padding: 10px;
+    height: 350px;
+}
+
+.texto{
+    font-size: 20px;
+    float:left;
+    width:50%;
+}
+
+.formulario{
+    float: right;
+    width: 50%;
+}
+
+.formulario input[type=text]{
+    font-family: 'Handlee', cursive; 
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding: 5px;
+}
+
+input {
+    font-size: 20px;
+}
+footer{
+    clear:both;
+    text-align: center;
+}
+
+footer input[type=submit]{
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color:darkgray;
+    font-family: 'Handlee', cursive; 
+}
+
+/* no se me ocurrio donde usar la propiedad de overflow */
